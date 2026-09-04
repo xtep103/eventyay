@@ -83,3 +83,6 @@ app/eventyay/data
 # Local plugins directory for development
 /plugins
 
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
