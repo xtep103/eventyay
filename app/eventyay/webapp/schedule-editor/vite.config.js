@@ -2,6 +2,9 @@ import path from 'path'
 import vue from '@vitejs/plugin-vue'
 import {createGettextPlugin} from '../i18n/vite-plugin.js'
 import BuntpapierStylus from 'buntpapier/stylus.js'
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const stylusOptions = {
 	paths: [
@@ -82,4 +85,4 @@ export default {
 		]
 	  }
 	}
-}
+};

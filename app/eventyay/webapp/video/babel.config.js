@@ -7,4 +7,4 @@ module.exports = {
 		['@babel/plugin-proposal-nullish-coalescing-operator', { loose: false }],
 		'@babel/plugin-syntax-dynamic-import'
 	]
-}
+};

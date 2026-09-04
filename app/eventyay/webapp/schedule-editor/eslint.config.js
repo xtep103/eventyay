@@ -112,4 +112,4 @@ export default [
       'vue/no-mutating-props': 'error',
     }
   }
-]
+];
