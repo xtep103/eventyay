@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
+    "start": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .js,.vue",
     "lint:fix": "eslint . --ext .js,.vue --fix",
