@@ -6,6 +6,9 @@ import visualizer from 'rollup-plugin-visualizer'
 import path from 'node:path'
 import eslint from 'vite-plugin-eslint'
 import {createGettextPlugin} from '../i18n/vite-plugin.js'
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const dirname = import.meta.dirname
 const stylusOptions = {
@@ -237,4 +240,4 @@ export default defineConfig(({ mode }) => {
       __SERVER_FORWARD_CONSOLE__: 'false',
     }
   }
-})
+});

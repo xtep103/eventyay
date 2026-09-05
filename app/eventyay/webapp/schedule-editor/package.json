@@ -4,8 +4,8 @@
   "description": "",
   "author": "",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
+    "start": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "lint": "npm run lint:eslint && npm run lint:stylelint && npm run lint:tsc",
     "lint:eslint": "eslint src --ext .js,.ts,.vue",
