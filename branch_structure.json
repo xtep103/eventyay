@@ -1,0 +1,18 @@
+{
+  "default_branch": "dev",
+  "branches": [
+    "dev",
+    "fix-5397-profile-picture-preview",
+    "origin"
+  ],
+  "parent": {
+    "dev": null,
+    "fix-5397-profile-picture-preview": "dev",
+    "origin": "dev"
+  },
+  "order": [
+    "dev",
+    "fix-5397-profile-picture-preview",
+    "origin"
+  ]
+}
